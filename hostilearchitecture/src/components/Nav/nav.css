@@ -1,0 +1,13 @@
+#navContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(64, 255, 0);
+  padding: 1%;
+}
+
+#navRight{
+  display: flex;
+  flex-direction: row;
+
+}

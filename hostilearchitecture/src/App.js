@@ -1,7 +1,11 @@
 import './App.css'
-
-function App() {
-  return <div>hi</div>
+import Nav from './components/Nav/Nav'
+const App = () => {
+  return (
+    <div>
+      <Nav />
+    </div>
+  )
 }
 
 export default App
