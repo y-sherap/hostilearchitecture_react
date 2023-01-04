@@ -13,7 +13,7 @@ const Nav = () => {
           <Link to='/post'>Post</Link>
         </div>
         <div id='aboutLink'>
-          <Link to ='/about'>Info</Link>
+          <Link to ='/info'>Info</Link>
         </div>
       </div>
     </nav>
