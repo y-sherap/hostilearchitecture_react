@@ -1,0 +1,9 @@
+#postsContainer{
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  padding: 8%;
+  margin: 0px;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,20 +1,50 @@
 #postContainer{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: aqua;
-  margin: 5%;
-  width: 250px;
-  height: 250px;
+  /* margin-right: 5%;
+  margin-bottom: 3%; */
+  width: 300px;
+  height: 300px;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
 }
 
 #postImage{
-  width:100%;
-  height:100%;
+  max-width: inherit;
+  max-height: inherit;
+  height: inherit;
+  width: inherit;
+  object-fit: cover;
 }
 
 #postCityCountry, #timeStamp {
   margin-bottom: 2%;
 }
 
+.imageOverlay {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background:rgba(0, 0, 0, 0.6);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0; 
+  transition: opacity 0.25s;
+}
+
+.imageOverlay > * {
+  transform: translateY(20px);
+  transition: transform 0.25s;
+}
+
+.imageOverlay:hover {
+  opacity: 1;
+}
+
+.imageOverlay:hover > * {
+  transform: translate(0)
+}
