@@ -1,6 +1,5 @@
 import React from 'react';
 import './post.css'
-import { useState } from 'react';
 
 const Post = ({post, index}) => {
 

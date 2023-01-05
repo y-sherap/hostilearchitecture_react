@@ -15,7 +15,7 @@ const NewPost = () => {
 
 
   const addPost = async (e) => {
-    const res = await Axios.post('http://localhost:3001/posts/create', {
+    const res = await Axios.post('http://localhost:3001/posts/:id', {
       image: image,
       city: city,
       country: country,
