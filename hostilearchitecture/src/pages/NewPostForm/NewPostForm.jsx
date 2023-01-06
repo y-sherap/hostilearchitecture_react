@@ -1,9 +1,8 @@
 import React from 'react'
 import { useState } from 'react';
-import './newpost.css'
 import Axios from 'axios'
 
-const NewPost = () => {
+const NewPostForm = () => {
 
   const [posts, setPosts] = useState([])
 
@@ -11,7 +10,6 @@ const NewPost = () => {
   const [image, setImage] = useState('')
   const [city, setCity] = useState('')
   const [country, setCountry] = useState('')
-
 
 
   const addPost = async (e) => {
@@ -98,4 +96,4 @@ const NewPost = () => {
   );
 };
 
-export default NewPost;
+export default NewPostForm;
