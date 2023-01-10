@@ -2,8 +2,18 @@
   display: flex;
   flex-direction: row;
   flex-flow: row wrap;
-  padding: 2%;
+  padding: 2% 20% 4% 20%;
   margin: 0px;
   align-items: center;
   justify-content: center;
+  animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
 }
