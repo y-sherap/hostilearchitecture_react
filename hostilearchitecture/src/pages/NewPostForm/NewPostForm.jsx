@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react';
 import Axios from 'axios'
+import './newpostform.css'
 
 const NewPostForm = () => {
 
@@ -49,10 +50,16 @@ const NewPostForm = () => {
   }
 
   return (
-    <div id="postContainer">
+    <div id="formContainer">
+      {/* <div>
+        <img id='formImage' src="brooklyn_cat.png" />
+      </div> */}
       <form onSubmit={handleSubmit}>
+        <div id="formTitle">
+          Submit a post
+        </div>
         <div>
-          <label htmlFor="photo">Photo:</label>
+          {/* <label htmlFor="photo">Photo:</label> */}
           <input className='formInput'
                       type="text"
                       onChange={changeImage}
@@ -64,7 +71,7 @@ const NewPostForm = () => {
                       />
         </div>
         <div>
-          <label htmlFor="photo">City:</label>
+        {/* <label htmlFor="photo">City:</label> */}
           <input className='formInput'
                     type="text"
                     onChange={changeCity}
@@ -76,7 +83,7 @@ const NewPostForm = () => {
                     />
         </div>
         <div>
-          <label htmlFor="photo">Country:</label>
+          {/* <label htmlFor="photo">Country:</label> */}
           <input className='formInput'
                     type="text"
                     onChange={changeCountry}
@@ -87,10 +94,10 @@ const NewPostForm = () => {
                     placeholder={'country'}
                   />
         </div>
+        <div>
+          <button type='submit'>GO</button>
+        </div>
 
-
-
-        <button type='submit'>submit</button>
       </form>
     </div>
   );
