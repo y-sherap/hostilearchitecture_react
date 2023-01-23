@@ -51,15 +51,11 @@ const NewPostForm = () => {
 
   return (
     <div id="formContainer">
-      {/* <div>
-        <img id='formImage' src="brooklyn_cat.png" />
-      </div> */}
       <form onSubmit={handleSubmit}>
         <div id="formTitle">
           Submit a post
         </div>
         <div>
-          {/* <label htmlFor="photo">Photo:</label> */}
           <input className='formInput'
                       type="text"
                       onChange={changeImage}
@@ -67,11 +63,10 @@ const NewPostForm = () => {
                       id="image"
                       required
                       value= {image}
-                      placeholder={'image'}
+                      placeholder={'Image URL'}
                       />
         </div>
         <div>
-        {/* <label htmlFor="photo">City:</label> */}
           <input className='formInput'
                     type="text"
                     onChange={changeCity}
@@ -79,11 +74,10 @@ const NewPostForm = () => {
                     id="city"
                     required
                     value= {city}
-                    placeholder={'city'}
+                    placeholder={'City'}
                     />
         </div>
         <div>
-          {/* <label htmlFor="photo">Country:</label> */}
           <input className='formInput'
                     type="text"
                     onChange={changeCountry}
@@ -91,7 +85,7 @@ const NewPostForm = () => {
                     id="country"
                     required
                     value= {country}
-                    placeholder={'country'}
+                    placeholder={'Country'}
                   />
         </div>
         <div>
