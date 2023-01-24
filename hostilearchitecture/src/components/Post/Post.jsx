@@ -13,7 +13,7 @@ const Post = ({post, index}) => {
           </div>
         <div id="homeOfferOnHover">
           <div id="postDate">
-            <p>{post.createdAt}</p>
+            <p>{post.createdAt.toLocaleString()}</p>
           </div>
         </div>
 
