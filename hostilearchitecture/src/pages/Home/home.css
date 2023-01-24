@@ -7,8 +7,11 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+  font-family: futura;
 }
 
 #top-nav{
   margin-bottom: 2%;
+  animation: fadein 2s;
+
 }
