@@ -3,7 +3,6 @@ import './post.css'
 
 const Post = ({post, index}) => {
 
-  
   return (
     <div id="postContainer" key={index} >
         <img id='postImage'src={post.image} alt="mountain"  />
