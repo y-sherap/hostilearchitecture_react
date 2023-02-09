@@ -13,5 +13,7 @@
 #top-nav{
   margin-bottom: 2%;
   animation: fadein 2s;
-
+  position: fixed;
+  bottom: 0;
+  padding-left: 2%;
 }
