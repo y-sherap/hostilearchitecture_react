@@ -9,7 +9,7 @@ const Posts = () => {
 
   useEffect(() => {
     const getPosts = async () => {
-      const res = await axios.get('http://localhost:3001/posts/all')
+      const res = await axios.get('https://hostilearchitecture-backend.herokuapp.com//posts/all')
       setPosts(res.data)
       console.log(res)
     }

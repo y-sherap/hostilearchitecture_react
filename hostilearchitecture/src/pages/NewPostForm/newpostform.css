@@ -3,7 +3,6 @@
     justify-content: center;
     margin: .5em auto;
     font-family: Futura;
-    padding-top: 2%;
 }
 
 #formTitle {
@@ -15,7 +14,6 @@
 form {
     display: flex;
     flex-direction: column;
-    /* background-color:#DFFF00; */
     width: 500px;
     height: 510px;
     text-align: center;
