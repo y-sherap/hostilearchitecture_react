@@ -11,12 +11,7 @@ const NewPostForm = () => {
   const [city, setCity] = useState('')
   const [country, setCountry] = useState('')
 
-  let navigate=useNavigate()
-
-  const goToHome = () => {
-    navigate('/')
-  }
-
+  let navigate = useNavigate()
 
   const addPost = async (e) => {
     const res = await Axios.post('https://hostilearchitecture-backend.herokuapp.com/posts/:id', {
@@ -36,7 +31,7 @@ const NewPostForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault()
     addPost(e)
-    window.location.reload(false)
+    navigate('/')
   }
 
   const changeImage = (event) => {
@@ -94,7 +89,7 @@ const NewPostForm = () => {
                   />
         </div>
         <div>
-          <button type='submit' onClick={goToHome}>GO</button>
+          <button type='submit'>GO</button>
         </div>
 
       </form>
