@@ -10,10 +10,10 @@ const Nav = () => {
       </div>
       <div id='navRight'>
         <div id='postLink'>
-          <Link to='/post'>Post</Link>
+          <Link to='/post'>●</Link>
         </div>
         <div id='aboutLink'>
-          <Link to ='/info'>Info</Link>
+          <Link to ='/info'>○</Link>
         </div>
       </div>
     </nav>

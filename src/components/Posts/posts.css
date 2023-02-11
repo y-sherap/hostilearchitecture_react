@@ -17,3 +17,16 @@
         opacity:1;
     }
 }
+
+@media (max-width: 990px){
+    #postsContainer{
+        display: flex;
+        flex-direction: row;
+        flex-flow: row wrap;
+        padding: 5% 10% 10% 10%;
+        margin: 0px;
+        align-items: center;
+        justify-content: center;
+        animation: fadein 2s;
+    }
+}

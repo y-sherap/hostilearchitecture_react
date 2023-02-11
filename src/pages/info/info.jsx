@@ -17,13 +17,13 @@ const Info = () => {
           </div>
           <ul>
           <a href="https://hostiledesign.org/" target="_blank" rel="noreferrer">
-              <li>Hostile Design</li>
+              <li>Hostile Design ↗</li>
             </a>
             <a href="https://www.nytimes.com/2019/11/08/nyregion/hostile-architecture-nyc.html" target="_blank" rel="noreferrer">
-              <li>‘Hostile Architecture’: How Public Spaces Keep the Public Out</li>
+              <li>‘Hostile Architecture’: How Public Spaces Keep the Public Out ↗</li>
             </a>
             <a href="https://99percentinvisible.org/episode/unpleasant-design-hostile-urban-architecture/" target="_blank" rel="noreferrer">
-              <li>99% Invisible - Unpleasant Design & Hostile Urban Architecture</li>
+              <li>99% Invisible - Unpleasant Design & Hostile Urban Architecture ↗</li>
             </a>
           </ul>
         </div>      

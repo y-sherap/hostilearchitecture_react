@@ -6,6 +6,7 @@ nav{
   padding: 2%;
   align-items: center;
   text-decoration: none;
+  font-family: Futura;
 }
 
 #navRight{
@@ -19,12 +20,8 @@ nav{
 }
 
 a {
-  color: blue;
+  color: rgb(0, 0, 0);
   text-decoration: none;
-}
-
-a:hover {
-  color: #000000
 }
 
 #postLink{

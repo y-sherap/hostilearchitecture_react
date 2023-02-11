@@ -2,15 +2,20 @@ import React from 'react'
 import { useState } from 'react';
 import Axios from 'axios'
 import './newpostform.css'
+import { useNavigate } from 'react-router';
 
 const NewPostForm = () => {
 
   const [posts, setPosts] = useState([])
-
-
   const [image, setImage] = useState('')
   const [city, setCity] = useState('')
   const [country, setCountry] = useState('')
+
+  let navigate=useNavigate()
+
+  const goToHome = () => {
+    navigate('/')
+  }
 
 
   const addPost = async (e) => {
@@ -89,7 +94,7 @@ const NewPostForm = () => {
                   />
         </div>
         <div>
-          <button type='submit'>GO</button>
+          <button type='submit' onClick={goToHome}>GO</button>
         </div>
 
       </form>

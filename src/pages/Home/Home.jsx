@@ -16,7 +16,7 @@ const Home = () => {
       </div>
       <div id="top-nav">
         <a href='/#top' onClick={goToTop}
-        >back to top</a>
+        >▲</a>
 
       </div>
     </div>

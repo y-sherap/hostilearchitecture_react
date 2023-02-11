@@ -15,5 +15,6 @@
   animation: fadein 2s;
   position: fixed;
   bottom: 0;
+  font-size: 20px;
   padding-left: 2%;
 }
