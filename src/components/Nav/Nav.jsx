@@ -11,10 +11,11 @@ const Nav = () => {
       </div>
       <div id='navRight'>
         <div id='postLink'>
-          <Link to='/post'>Post</Link>
+          <button id='nav-button'><Link to='/post'>Post</Link>
+          </button>
         </div>
         <div id='aboutLink'>
-          <Link to ='/info'>Info</Link>
+          <button id='nav-button'><Link to ='/info'>Info</Link></button>
         </div>
       </div>
     </nav>

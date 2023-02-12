@@ -89,7 +89,7 @@ const NewPostForm = () => {
                   />
         </div>
         <div>
-          <button type='submit'>GO</button>
+          <button id ='info-button' type='submit'>GO</button>
         </div>
 
       </form>
