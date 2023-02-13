@@ -78,7 +78,7 @@ button:hover{
         background-color: rgb(245, 248, 238);
     }
     
-    button {
+    #info-button {
         width: 262px;
         height: 45px;
         border: grey solid 1px;
